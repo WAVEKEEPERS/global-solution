@@ -16,6 +16,18 @@
                     <picture id="logo">
                         <img src="./images/logo.svg" alt="Logo">
                     </picture>
+                    <div class="content-card">
+                        <span class="valida"></span>
+                        <form action="./index.html" method="get" onsubmit="return validar(email, password)">
+                            <input class="input-layout icon-email" type="email" name="txtEmail" id="email" placeholder="E-mail" minlength="8" maxlength="40" required>
+                            <input class="input-layout icon-password" type="password" name="txtSenha" id="password" placeholder="Senha" minlength="6" maxlength="16" required>  
+                            <label class="checkbox">Lembrar senha
+                                <input type="checkbox" id="forgot-password" name="forgot-password">
+                                <span class="checkmark"></span>
+                            </label>
+                            <button id="button-submit" type="submit">Entrar</button>
+                        </form>
+                    </div>
                 </div>
             </section>
         </main>
