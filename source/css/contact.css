@@ -413,6 +413,22 @@
         outline-color: var(--color-8); 
     }
 
+    .textarea-message {
+        width: 298px;
+        height: 50px;
+        padding: 13px;
+        font-weight: 400;
+        font-size: 15px;
+        resize: vertical;
+    
+        box-sizing: border-box;
+        border-radius: 25px;
+        border: 2px solid var(--color-6);
+        background: var(--color-7);
+        filter: drop-shadow(0px 4px 0px var(--color-6));
+        outline-color: var(--color-8); 
+    }
+
     ::-webkit-input-placeholder {
         color: var(--color-1);
     }
@@ -442,8 +458,8 @@
         padding-left: 50px;
     }
 
-    .icon-password {
-        background-image: url('../../images/icon-password.svg');
+    .icon-message {
+        background-image: url('../../images/icon-message.svg');
         background-repeat: no-repeat;
         background-position: calc(10% - 10px) center;
         padding-left: 50px;
@@ -679,6 +695,22 @@
         outline-color: var(--color-8); 
     }
 
+    .textarea-message {
+        width: 298px;
+        height: 50px;
+        padding: 13px;
+        font-weight: 400;
+        font-size: 15px;
+        resize: vertical;
+    
+        box-sizing: border-box;
+        border-radius: 25px;
+        border: 2px solid var(--color-6);
+        background: var(--color-7);
+        filter: drop-shadow(0px 4px 0px var(--color-6));
+        outline-color: var(--color-8); 
+    }
+
     ::-webkit-input-placeholder {
         color: var(--color-1);
     }
@@ -708,8 +740,8 @@
         padding-left: 50px;
     }
 
-    .icon-password {
-        background-image: url('../../images/icon-password.svg');
+    .icon-message {
+        background-image: url('../../images/icon-message.svg');
         background-repeat: no-repeat;
         background-position: calc(10% - 10px) center;
         padding-left: 50px;
@@ -946,6 +978,22 @@
 
     }
 
+    .textarea-message {
+        width: 298px;
+        height: 50px;
+        padding: 13px;
+        font-weight: 400;
+        font-size: 15px;
+        resize: vertical;
+    
+        box-sizing: border-box;
+        border-radius: 25px;
+        border: 2px solid var(--color-6);
+        background: var(--color-7);
+        filter: drop-shadow(0px 4px 0px var(--color-6));
+        outline-color: var(--color-8); 
+    }
+
     ::-webkit-input-placeholder {
         color: var(--color-1);
     }
@@ -975,8 +1023,8 @@
         padding-left: 50px;
     }
 
-    .icon-password {
-        background-image: url('../../images/icon-password.svg');
+    .icon-message {
+        background-image: url('../../images/icon-message.svg');
         background-repeat: no-repeat;
         background-position: calc(10% - 10px) center;
         padding-left: 50px;
@@ -1214,6 +1262,22 @@
 
     }
 
+    .textarea-message {
+        width: 298px;
+        height: 50px;
+        padding: 13px;
+        font-weight: 400;
+        font-size: 15px;
+        resize: vertical;
+    
+        box-sizing: border-box;
+        border-radius: 25px;
+        border: 2px solid var(--color-6);
+        background: var(--color-7);
+        filter: drop-shadow(0px 4px 0px var(--color-6));
+        outline-color: var(--color-8); 
+    }
+
     ::-webkit-input-placeholder {
         color: var(--color-1);
     }
@@ -1243,8 +1307,8 @@
         padding-left: 50px;
     }
 
-    .icon-password {
-        background-image: url('../../images/icon-password.svg');
+    .icon-message {
+        background-image: url('../../images/icon-message.svg');
         background-repeat: no-repeat;
         background-position: calc(10% - 10px) center;
         padding-left: 50px;
