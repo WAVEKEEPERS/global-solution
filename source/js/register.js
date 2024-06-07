@@ -15,3 +15,14 @@ let listaUsuario = [{
     senhaUsuario: "554764",
   }, ];
 
+let logins = JSON.parse(localStorage.getItem("logins"));
+
+if (logins == null) {
+localStorage.setItem("logins", JSON.stringify(listaUsuario))
+}
+
+let usuario = JSON.parse(localStorage.getItem("usuario-logado"));
+
+if (usuario) {
+window.location.href = "../../pages/quiz.html";
+}
