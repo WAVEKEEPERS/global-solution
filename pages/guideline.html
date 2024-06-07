@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../source/css/guidline.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+    <script src="../source/js/loginValidation.js" defer></script>
     <title>WaveKeepers - Conhecimentos</title>
 </head>
 <body>
-    
+    <div id="container">
+        <div class="row">
+            <nav class="sidebar">
+                <div class="sidebar-top">
+                    <div class="profile">
+                        <span class="avatar"></span>
+                        <div class="text">
+                            <span class="username"></span>
+                            <span class="email"></span>
+                        </div>
+                    </div>
+                    <form>
+                        <input class="input-layout icon-search" type="text" id="text" placeholder="Buscar...">
+                    </form>
+                    <ul class="menu">
+                        <a href="../pages/quiz.html"><li class="layout-menu icon-quiz">Quiz</li></a>
+                        <a href="../pages/challange.html"><li class="layout-menu icon-desafios">Desafios</li></a>
+                        <a href="#"><li class="layout-menu-selected icon-conhecimentos">Conhecimentos</li></a>
+                        <a href="../pages/chatbot.html"><li class="layout-menu icon-chatbot">Chatbot</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
 </body>
 </html>
