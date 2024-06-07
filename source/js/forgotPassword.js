@@ -26,3 +26,30 @@ let usuario = JSON.parse(localStorage.getItem("usuario-logado"));
 if (usuario) {
   window.location.href = "../../pages/quiz.html";
 }
+
+function validar(inputEmail) {
+
+    let msgStatus = document.querySelector(".valida");
+  
+    for (let x = 0; x < logins.length; x++) {
+  
+        if ((inputEmail.value == logins[x].emailUsuario)) {
+  
+            msgStatus.setAttribute("class", "alert icon-alert");
+            msgStatus.innerText = "Sua senha é: " + logins[x].senhaUsuario;
+  
+            setTimeout(function() {
+                msgStatus.setAttribute("class", "valida");
+                msgStatus.innerText = "";
+            }, 3000);
+            return false;
+        }
+    }
+    msgStatus.setAttribute("class", "alert icon-alert");
+    msgStatus.innerText = "E-mail não encontrado!";
+    setTimeout(function() {
+        msgStatus.setAttribute("class", "valida");
+        msgStatus.innerText = "";
+    }, 3000);
+    return false;
+  }
