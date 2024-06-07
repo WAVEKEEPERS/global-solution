@@ -3,9 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WaveKeepers - Quiz</title>
+    <link href="../source/css/quiz.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+    <script src="../source/js/loginValidation.js" defer></script>
+    <title>Quiz</title>
 </head>
 <body>
-    
+    <div id="container">
+        <div class="row">
+            <nav class="sidebar">
+                <div class="sidebar-top">
+                    <div class="profile">
+                        <span class="avatar"></span>
+                        <div class="text">
+                            <span class="username"></span>
+                            <span class="email"></span>
+                        </div>
+                    </div>
+                    <form>
+                        <input class="input-layout icon-search" type="text" id="text" placeholder="Buscar...">
+                    </form>
+                    <ul class="menu">
+                        <a href="#"><li class="layout-menu-selected icon-quiz">Quiz</li></a>
+                        <a href="../pages/challange.html"><li class="layout-menu icon-desafios">Desafios</li></a>
+                        <a href="../pages/guideline.html"><li class="layout-menu icon-conhecimentos">Conhecimentos</li></a>
+                        <a href="../pages/chatbot.html"><li class="layout-menu icon-chatbot">Chatbot</li></a>
+                    </ul>
+                </div>
+                <div class="sidebar-bottom">
+                    <ul class="menu">
+                        <li class="layout-menu icon-logout">Sair</li>
+                    </ul>
+                </div>
+            </nav>
+            <main id="main">
+                <section id="section">
+                    <div id="content">
+                        <div class="title">
+                            <h1>Quiz</h1>
+                        </div>
+                        <div id="quiz">
+                            <div class="quiz-style">
+                                <div class="content">
+                                    <div class="content-top">
+                                        <div class="title-description">
+                                            <span class="title">Dia Mundial dos Oceanos</span>
+                                            <span class="description">Responda esse quiz e ganhe 1000 pontos!</span>
+                                        </div>
+                                        <span class="tag yellow">30/05/2024 ÀS 20:00</span>
+                                    </div>
+                                    <div class="content-bottom">
+                                        <span class="tag red">NÃO RESPONDIDO</span>
+                                        <button class="tag green" type="button">RESPONDER</button>
+                                    </div> 
+                                </div> 
+                            </div>
+                            <div class="quiz-style">
+                                <div class="content">
+                                    <div class="content-top">
+                                        <div class="title-description">
+                                            <span class="title">Economia Circular</span>
+                                            <span class="description">Responda esse quiz e ganhe 1200 pontos!</span>
+                                        </div>
+                                        <span class="tag gray">10/05/2024 ÀS 20:00</span>
+                                    </div>
+                                    <div class="content-bottom">
+                                        <span class="tag green">RESPONDIDO</span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="quiz-style">
+                                <div class="content">
+                                    <div class="content-top">
+                                        <div class="title-description">
+                                            <span class="title">Os Poluentes dos Oceanos</span>
+                                            <span class="description">Responda esse quiz e ganhe 2000 pontos!</span>
+                                        </div>
+                                        <span class="tag gray">25/05/2024 ÀS 20:00</span>
+                                    </div>
+                                    <div class="content-bottom">
+                                        <span class="tag green">RESPONDIDO</span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="quiz-style">
+                                <div class="content">
+                                    <div class="content-top">
+                                        <div class="title-description">
+                                            <span class="title">Categoria dos Plásticos</span>
+                                            <span class="description">Responda esse quiz e ganhe 1000 pontos!</span>
+                                        </div>
+                                        <span class="tag yellow">30/05/2024 ÀS 20:00</span>
+                                    </div>
+                                    <div class="content-bottom">
+                                        <span class="tag red">NÃO RESPONDIDO</span>
+                                        <button class="tag green" type="button">RESPONDER</button>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="quiz-style">
+                                <div class="content">
+                                    <div class="content-top">
+                                        <div class="title-description">
+                                            <span class="title">Reciclagem</span>
+                                            <span class="description">Responda esse quiz e ganhe 1000 pontos!</span>
+                                        </div>
+                                        <span class="tag gray">30/05/2024 ÀS 20:00</span>
+                                    </div>
+                                    <div class="content-bottom">
+                                        <span class="tag gray">NÃO ACEITA MAIS RESPOSTAS</span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>  
 </body>
 </html>

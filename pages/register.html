@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WaveKeepers - Cadastro</title>
+    <link href="../source/css/cadastro.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+    <script src="../source/js/register.js" defer></script>
+    <title>Cadastro</title>
 </head>
 <body>
-    
+    <div id="container">
+        <main class="row">
+            <section class="section">
+                <div class="card">
+                    <picture id="logo">
+                        <img src="../images/logo.svg" alt="Logo">
+                    </picture>
+                    <div class="content-card">
+                        <span class="valida"></span>
+                        <form action="./register.html" method="get" onsubmit="return cadastrar(nome, cpf, email, password)">
+                            <input class="input-layout icon-nome" type="text" name="txtNome" id="nome" placeholder="Nome" minlength="4" maxlength="50" required>
+                            <input class="input-layout icon-cpf" type="text" name="txtCPF" id="cpf" placeholder="CPF" minlength="11" maxlength="11" required>
+                            <input class="input-layout icon-email" type="email" name="txtEmail" id="email" placeholder="E-mail" minlength="8" maxlength="40" required>
+                            <input class="input-layout icon-password" type="password" name="txtSenha" id="password" placeholder="Senha" minlength="6" maxlength="16" required>  
+                            <label class="checkbox">Aceito os Termos de Serviços
+                                <input type="checkbox" id="terms-of-services" name="terms-of-services">
+                                <span class="checkmark"></span>
+                            </label>
+                            <button id="button-submit" type="submit">Cadastrar</button>
+                        </form>
+                        <div class="ja-tem-cadastro">
+                            <a href="../index.html"><strong>Já tenho cadastro ></strong></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
