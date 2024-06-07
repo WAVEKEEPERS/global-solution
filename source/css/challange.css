@@ -2233,6 +2233,40 @@
 }
 
 @media screen and (max-width: 575px) {
-  
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        text-decoration: none;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+    }
+
+    :root {
+        --color-1: #12A594;
+        --color-2: #FFFFFF;
+        --color-3: #FBFDFD;
+        --color-4: #F3FBF9;
+        --color-5: #A1DED2;
+        --color-6: #83CDC1;
+        --color-7: #E0F8F3;
+        --color-8: #008573;
+        --color-9: #CCF3EA;
+        --color-10: #B8EAE0;
+        --color-11: #E5E5E5;
+        --color-alert: #9E6C00;
+        --color-white: white;
+        --color-gray: gray;
+        --color-background-alert: #FEFCE9;
+        --color-background-yellow: #FFC234;
+        --color-background-gray: #E1E1E1;
+        --color-background-red:#FF4347;
+        --color-background-green:#42C62F;
+        --color-border-alert: #F3D65F;
+        --color-border-box-yellow: #E89D2C;
+        --color-border-box-gray: #AFAFAF;
+        --color-border-box-red: #EE282D;
+        --color-border-box-green: #489D26;
+    }
 }
 
