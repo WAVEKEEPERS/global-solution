@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../source/css/chatbot.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.svg">
+    <script src="../source/js/loginValidation.js" defer></script>
+    <script src="../source/js/chatbot.js" defer></script>
     <title>WaveKeepers - Chatbot</title>
 </head>
 <body>
-    
+    <div id="container">
+        <div class="row">
+            <nav class="sidebar">
+                <div class="sidebar-top">
+                    <div class="profile">
+                        <span class="avatar"></span>
+                        <div class="text">
+                            <span class="username"></span>
+                            <span class="email"></span>
+                        </div>
+                        <form>
+                            <input class="input-layout icon-search" type="text" id="text" placeholder="Buscar...">
+                        </form>
+                        <ul class="menu">
+                            <a href="../pages/quiz.html"><li class="layout-menu icon-quiz">Quiz</li></a>
+                            <a href="../pages/challange.html"><li class="layout-menu icon-desafios">Desafios</li></a>
+                            <a href="../pages/guideline.html"><li class="layout-menu icon-conhecimentos">Conhecimentos</li></a>
+                            <a href="#"><li class="layout-menu-selected icon-chatbot">Chatbot</li></a>
+                        </ul>
+                    </div>
+                    <div class="sidebar-bottom">
+                        <ul class="menu">
+                            <li class="layout-menu icon-logout">Sair</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <main id="main">
+                <section id="section">
+                    <div id="content">
+                        <div class="title">
+                            <h1>Chatbot</h1>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
 </body>
 </html>
